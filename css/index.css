@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 30px;
+    padding: 10;
+  }
+  
+h1{
+    align-content: center;
+    margin-left: 40%;
+  }
+  ul {
+      list-style: none;
+  }
+  li {
+
+    margin-right:5px;
+  }
+
+  .divlist{
+    border: 1px solid black;
+    padding: 10px;
+    margin:5px;
+    border-radius: 10px;
+    border-color: gray;
+   
+  }
+
+  .check, .delete {
+
+    display: inline-block;
+    margin-top: 10px;
+    border-width: thin;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
